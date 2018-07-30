@@ -1,0 +1,2 @@
+# ZPAutolayout_xib
+介绍在xib中如何利用Autolayout来进行屏幕适配。
