@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="控制器的View">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9S5-ML-ril" userLabel="粉色的View">
+                                <rect key="frame" x="20" y="40" width="335" height="100"/>
+                                <color key="backgroundColor" red="0.93982863400000005" green="0.338274994" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="V4d-mF-gPz"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jr8-MO-FLX" userLabel="蓝色的View">
+                                <rect key="frame" x="187.5" y="160" width="167.5" height="100"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jr8-MO-FLX" firstAttribute="trailing" secondItem="9S5-ML-ril" secondAttribute="trailing" id="01K-Gf-Whf"/>
+                            <constraint firstAttribute="trailing" secondItem="9S5-ML-ril" secondAttribute="trailing" constant="20" id="2ku-MM-5Dh"/>
+                            <constraint firstItem="jr8-MO-FLX" firstAttribute="width" secondItem="9S5-ML-ril" secondAttribute="width" multiplier="0.5" id="6XB-mI-Uh3"/>
+                            <constraint firstItem="9S5-ML-ril" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="Mct-gE-1v1"/>
+                            <constraint firstItem="9S5-ML-ril" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Tpp-Kw-Wcf"/>
+                            <constraint firstItem="jr8-MO-FLX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="centerXWithinMargins" id="VlN-is-Szh"/>
+                            <constraint firstItem="jr8-MO-FLX" firstAttribute="height" secondItem="9S5-ML-ril" secondAttribute="height" id="fa4-8p-KQ8"/>
+                            <constraint firstItem="jr8-MO-FLX" firstAttribute="top" secondItem="9S5-ML-ril" secondAttribute="bottom" constant="20" id="pq7-JS-MxQ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="VlN-is-Szh"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="375" y="320"/>
+        </scene>
+    </scenes>
+</document>
